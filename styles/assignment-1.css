@@ -108,7 +108,7 @@ main section{
     margin: auto;
 }
 .about-left{
-    max-width: 500px;
+    max-width: 600px;
     padding: 0 23px;
 }
 .about-right {
@@ -161,3 +161,54 @@ main section{
     color: rgba(0, 0, 0, 0.5);
     margin-top: 8px;
 }
+
+/* form style */
+.connection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 71px ;
+    
+}
+.connection-column{
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 50%;  
+    color: #000000;
+}
+.connection-greeting{
+    font-weight: bold;
+    font-size: 60px;
+    color: #000000;
+    padding: 10;
+}
+section input[type="text"], section input[type="email"], section textarea{
+    height: 30px;
+    width: 100%;
+    gap: 20px;
+    padding: 12px 16px;
+    margin-bottom: 19px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    display: block;
+}
+section input[type="submit"]{
+    display: block;
+    width: 107%;
+}
+section textarea{ 
+    height: auto; 
+    min-height: 100px; 
+}
+form label{  
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000000;
+}
+
+
