@@ -1,3 +1,70 @@
+body{
+   max-width: 1270px; 
+   margin: 0 auto
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 0 auto;
+
+}
 .card{
-    width: 350px;
+    width: 400px;
+    height: 230px;
+    border: 2px solid rgba(242, 237, 237, 1);
+    border-radius: 14px;
+    padding: 24px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.opinions{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: #252432;
+}
+.title-1{
+    color: #1E1E1E;
+    font-weight: 600;
+    font-size: 24px; 
+    margin-bottom: 5px; 
+}
+.sub-title-2{
+    font-weight: 400;
+    font-size: 16px;
+    color: #1E1E1E;
+    margin-bottom: 20px; 
+}
+.reviewers{
+    display: flex; 
+    align-items: center;  
+    gap: 10px;
+}
+.reviewers img{
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+}
+.name-date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.name{
+    font-weight: 600;
+    font-size: 16px;
+    color: #757575;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.date{   
+    font-weight: 400;
+    font-size: 16px;
+    color :rgba(179, 179, 179, 1); 
+    margin: 0;
+}
+.card i { 
+    font-size: 20px;
 }
